@@ -67,8 +67,8 @@ export type ChinaEvent = {
   desc: string;
   story: string;
   highlights: string[];
-  img: string | null;
-  gallery: (string | null)[];
+  videos?: string[]; // play at the top of the modal
+  gallery: (string | null)[]; // null entries render as "photo coming soon" slots
 };
 
 export const CHINA_EVENTS: ChinaEvent[] = [
@@ -81,7 +81,6 @@ export const CHINA_EVENTS: ChinaEvent[] = [
     story:
       "New city, new language, a room full of strangers — and slowly, a whole life. From the welcome dinner that turned classmates from around the world into family, to podcast recordings, finance presentations, cosplay streets, glass skywalks and late-night city lights: these are the everyday moments that made Wuhan home. Scroll through a few years of firsts, friends and small adventures.",
     highlights: ["Classmates from a dozen countries, one table", "From lecture halls to rooftop city views", "The friends who became family far from home"],
-    img: null,
     gallery: [
       "/images/events/welcome/welcome-01.jpg",
       "/images/events/welcome/welcome-02.jpg",
@@ -110,28 +109,42 @@ export const CHINA_EVENTS: ChinaEvent[] = [
     ],
   },
   {
-    zh: "樱",
-    title: "Blossom Picnic at East Lake",
-    when: "Spring",
-    where: "East Lake Cherry Blossom Garden, Wuhan",
-    desc: "An afternoon under Wuhan's famous cherry blossoms, petals in everyone's hair.",
+    zh: "童",
+    title: "The First Kids Connect Event",
+    when: "Guangzhou",
+    where: "Ethiopian Community in Guangzhou",
+    desc: "The first kids event hosted by Ethiopians in China — because every child deserves a place to belong.",
     story:
-      "Wuhan's cherry blossoms are famous across China, and East Lake in full bloom looks like a painting. Betty organized a picnic under the trees — blankets, tea, music, and petals drifting into everything. It's the day this invitation's falling petals are borrowed from.",
-    highlights: ["East Lake's 10,000 cherry trees in bloom", "Tea and snacks under the petals", "The photo album everyone kept"],
-    img: null,
+      "Every child deserves a place to belong. Betty and the Ethiopian Community in Guangzhou hosted their very first Kids Connect event — a day of games, cake and laughter that created joyful memories and meaningful connections for children and families building a life far from home. The first of its kind, hosted by Ethiopians in China.",
+    highlights: ["The first Ethiopian-hosted kids event in China", "Games, cake and a whole lot of joy", "Connecting children and families far from home"],
+    // Photos + 3 videos of this event are coming — drop them in
+    // public/images/events/kids/ and public/videos/, then list them here.
+    videos: [],
     gallery: [null, null, null],
   },
   {
-    zh: "礼",
-    title: "Ethiopian Coffee Ceremony",
-    when: "International Cultural Week",
-    where: "Campus Cultural Hall",
-    desc: "Betty brought a taste of home to campus — buna, incense and open doors.",
+    zh: "友",
+    title: "A Graduation, Thrown by Friends",
+    when: "Class of 2026",
+    where: "Rooftop celebration",
+    desc: "The friends who became family surprised Betty with a graduation party to remember.",
     story:
-      "For cultural week, Betty staged a full Ethiopian coffee ceremony — green beans roasted over flame, the room filling with incense, three rounds poured the traditional way. For many classmates it was their first taste of Ethiopia, and the line for a cup stretched out the door.",
-    highlights: ["Beans roasted fresh, the traditional way", "Three rounds: abol, tona, baraka", "A line out the door for a taste of Ethiopia"],
-    img: null,
-    gallery: [null, null, null],
+      "Home isn't always a place — sometimes it's the people beside you. Betty's friends surprised her with a full graduation celebration: a “Congratulations Bethy, Class of 2026” backdrop, balloons, flowers, gifts and a rooftop dinner under the city lights. Grateful for the friends who became family and made this milestone even more meaningful.",
+    highlights: ["A surprise “Class of 2026” celebration", "Balloons, flowers, gifts and city-light views", "The friends who became family"],
+    videos: ["/videos/friends-01.mp4"],
+    gallery: [
+      "/images/events/friends/friends-01.jpg",
+      "/images/events/friends/friends-02.jpg",
+      "/images/events/friends/friends-03.jpg",
+      "/images/events/friends/friends-04.jpg",
+      "/images/events/friends/friends-05.jpg",
+      "/images/events/friends/friends-06.jpg",
+      "/images/events/friends/friends-07.jpg",
+      "/images/events/friends/friends-08.jpg",
+      "/images/events/friends/friends-09.jpg",
+      "/images/events/friends/friends-10.jpg",
+      "/images/events/friends/friends-11.jpg",
+    ],
   },
   {
     zh: "别",
@@ -142,7 +155,6 @@ export const CHINA_EVENTS: ChinaEvent[] = [
     story:
       "Degree in hand, bags half-packed, Betty gathered everyone one final time — the professors who pushed her, the friends who became family, the city that became a second home. There were speeches, there were tears, and there was a promise: the celebration continues in Addis Ababa.",
     highlights: ["Toasts from professors and friends", "Gifts, speeches and a few happy tears", "A promise: see you in Addis Ababa"],
-    img: null,
     gallery: [null, null, null],
   },
 ];
