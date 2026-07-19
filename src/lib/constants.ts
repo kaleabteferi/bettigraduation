@@ -117,10 +117,16 @@ export const CHINA_EVENTS: ChinaEvent[] = [
     story:
       "Every child deserves a place to belong. Betty and the Ethiopian Community in Guangzhou hosted their very first Kids Connect event — a day of games, cake and laughter that created joyful memories and meaningful connections for children and families building a life far from home. The first of its kind, hosted by Ethiopians in China.",
     highlights: ["The first Ethiopian-hosted kids event in China", "Games, cake and a whole lot of joy", "Connecting children and families far from home"],
-    // Photos + 3 videos of this event are coming — drop them in
-    // public/images/events/kids/ and public/videos/, then list them here.
+    // 3 videos of this event are still coming — drop them in public/videos/
+    // as kids-01.mp4 … and list them in `videos` below.
     videos: [],
-    gallery: [null, null, null],
+    gallery: [
+      "/images/events/kids/kids-01.jpg",
+      "/images/events/kids/kids-02.jpg",
+      "/images/events/kids/kids-03.jpg",
+      "/images/events/kids/kids-04.jpg",
+      "/images/events/kids/kids-05.jpg",
+    ],
   },
   {
     zh: "友",
