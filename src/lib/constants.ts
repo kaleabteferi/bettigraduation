@@ -153,10 +153,17 @@ export const CHINA_EVENTS: ChinaEvent[] = [
     story:
       "More than an event — it was a celebration of unity, culture and belonging. Betty hosted and co-organized the first Ethiopian Day in Guangzhou: a night discovering Ethiopia, honouring culture and connection, and endorsing the friendship between Ethiopia and China. Proud to have played a part in bringing the community closer together. 🇪🇹",
     highlights: ["Host & co-organizer of the first Ethiopian Day", "A celebration of Ethiopia–China friendship", "Culture, connection and belonging"],
-    // 6 photos + 1 video of Ethiopian Day are coming — drop them in
-    // public/images/events/ethiopianday/ and public/videos/, then list them here.
-    videos: [],
-    gallery: [null, null, null],
+    // Note: this clip is byte-identical to the one on the friends card —
+    // shared on both until Betty confirms which event it belongs to.
+    videos: ["/videos/friends-01.mp4"],
+    gallery: [
+      "/images/events/ethiopianday/ethday-01.jpg",
+      "/images/events/ethiopianday/ethday-02.jpg",
+      "/images/events/ethiopianday/ethday-03.jpg",
+      "/images/events/ethiopianday/ethday-04.jpg",
+      "/images/events/ethiopianday/ethday-05.jpg",
+      "/images/events/ethiopianday/ethday-06.jpg",
+    ],
   },
   {
     zh: "宾",
