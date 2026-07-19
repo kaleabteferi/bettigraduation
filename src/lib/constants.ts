@@ -118,14 +118,7 @@ export const CHINA_EVENTS: ChinaEvent[] = [
       "Every child deserves a place to belong. Betty and the Ethiopian Community in Guangzhou hosted their very first Kids Connect event — a day of games, cake and laughter that created joyful memories and meaningful connections for children and families building a life far from home. The first of its kind, hosted by Ethiopians in China.",
     highlights: ["The first Ethiopian-hosted kids event in China", "Games, cake and a whole lot of joy", "Connecting children and families far from home"],
     videos: ["/videos/kids-01.mp4", "/videos/kids-02.mp4", "/videos/kids-03.mp4"],
-    gallery: [
-      "/images/events/kids/kids-06.jpg",
-      "/images/events/kids/kids-01.jpg",
-      "/images/events/kids/kids-02.jpg",
-      "/images/events/kids/kids-03.jpg",
-      "/images/events/kids/kids-04.jpg",
-      "/images/events/kids/kids-05.jpg",
-    ],
+    gallery: ["/images/events/kids/kids-06.jpg"],
   },
   {
     zh: "友",
@@ -164,5 +157,23 @@ export const CHINA_EVENTS: ChinaEvent[] = [
     // public/images/events/ethiopianday/ and public/videos/, then list them here.
     videos: [],
     gallery: [null, null, null],
+  },
+  {
+    zh: "宾",
+    title: "Guest of the Chamber of Commerce",
+    when: "Panyu District, Guangzhou",
+    where: "International Parent-Child Friendly Exchange Gathering",
+    desc: "Invited by the secretary of the Guangzhou Chamber of Commerce — a huge honor to attend as a guest.",
+    story:
+      "An invitation that meant the world: Betty attended the International Parent-Child Friendly Exchange Gathering hosted by the secretary of the Guangzhou Chamber of Commerce — a garden afternoon of culture and connection, where she spoke on stage, tried her hand at the guzheng, and stood for the group photo among families from across the world. A huge honor to be a guest there.",
+    highlights: ["Personally invited by the Chamber of Commerce secretary", "A first lesson on the guzheng, China's classical zither", "Families from around the world, one garden"],
+    videos: [],
+    gallery: [
+      "/images/events/chamber/chamber-01.jpg",
+      "/images/events/chamber/chamber-02.jpg",
+      "/images/events/chamber/chamber-03.jpg",
+      "/images/events/chamber/chamber-04.jpg",
+      "/images/events/chamber/chamber-05.jpg",
+    ],
   },
 ];
