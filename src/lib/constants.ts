@@ -117,10 +117,9 @@ export const CHINA_EVENTS: ChinaEvent[] = [
     story:
       "Every child deserves a place to belong. Betty and the Ethiopian Community in Guangzhou hosted their very first Kids Connect event — a day of games, cake and laughter that created joyful memories and meaningful connections for children and families building a life far from home. The first of its kind, hosted by Ethiopians in China.",
     highlights: ["The first Ethiopian-hosted kids event in China", "Games, cake and a whole lot of joy", "Connecting children and families far from home"],
-    // 3 videos of this event are still coming — drop them in public/videos/
-    // as kids-01.mp4 … and list them in `videos` below.
-    videos: [],
+    videos: ["/videos/kids-01.mp4", "/videos/kids-02.mp4", "/videos/kids-03.mp4"],
     gallery: [
+      "/images/events/kids/kids-06.jpg",
       "/images/events/kids/kids-01.jpg",
       "/images/events/kids/kids-02.jpg",
       "/images/events/kids/kids-03.jpg",
@@ -153,14 +152,17 @@ export const CHINA_EVENTS: ChinaEvent[] = [
     ],
   },
   {
-    zh: "别",
-    title: "Farewell Banquet",
-    when: "Summer 2026",
-    where: "Wuhan",
-    desc: "One last toast with professors and friends before the flight home.",
+    zh: "谊",
+    title: "Ethiopian Day 2026",
+    when: "2026",
+    where: "Ethiopian Community in Guangzhou",
+    desc: "Host and co-organizer of the first Ethiopian Day — a celebration of culture, connection and Ethiopia–China friendship.",
     story:
-      "Degree in hand, bags half-packed, Betty gathered everyone one final time — the professors who pushed her, the friends who became family, the city that became a second home. There were speeches, there were tears, and there was a promise: the celebration continues in Addis Ababa.",
-    highlights: ["Toasts from professors and friends", "Gifts, speeches and a few happy tears", "A promise: see you in Addis Ababa"],
+      "More than an event — it was a celebration of unity, culture and belonging. Betty hosted and co-organized the first Ethiopian Day in Guangzhou: a night discovering Ethiopia, honouring culture and connection, and endorsing the friendship between Ethiopia and China. Proud to have played a part in bringing the community closer together. 🇪🇹",
+    highlights: ["Host & co-organizer of the first Ethiopian Day", "A celebration of Ethiopia–China friendship", "Culture, connection and belonging"],
+    // 6 photos + 1 video of Ethiopian Day are coming — drop them in
+    // public/images/events/ethiopianday/ and public/videos/, then list them here.
+    videos: [],
     gallery: [null, null, null],
   },
 ];
