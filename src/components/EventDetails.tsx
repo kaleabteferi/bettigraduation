@@ -136,7 +136,7 @@ function addToCalendar() {
     text: "Betty's Graduation Celebration 🎓",
     dates: "20260718T090000Z/20260718T190000Z",
     details:
-      "Graduation lunch for Betelhem Abera — Master's in Finance & International Trade, Wuhan Textile University. 邀请您参加 Betty 的毕业典礼! No end time — celebrate freely. Directions: " +
+      "Graduation lunch for Bethlehem Abera — Master's in Finance & International Trade, Wuhan Textile University. 邀请您参加 Betty 的毕业典礼! No end time — celebrate freely. Directions: " +
       EVENT.mapsUrl,
     location: `${EVENT.mapLat},${EVENT.mapLng}`,
   });

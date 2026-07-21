@@ -4,7 +4,7 @@
 export const MEDIA = "https://sjxkmynbbmqnfxjajgkp.supabase.co/storage/v1/object/public/media";
 
 export const EVENT = {
-  graduateName: "Betelhem Abera",
+  graduateName: "Bethlehem Abera",
   nickname: "Betty",
   role: "Finance & International Trade",
   degree: "Master's Degree",
@@ -17,7 +17,7 @@ export const EVENT = {
   timeSub: "Addis Ababa time · no end time ∞ · celebrate freely",
   venueLabel: "Urael, Bole — Addis Ababa",
   venueSub: "Ethiopia 🇪🇹 · tap the map for directions",
-  hosts: "Dr. Abera, Betelhem & Family",
+  hosts: "Dr. Abera, Bethlehem & Family",
   inviteZh: "邀请您参加 Betty 的毕业典礼！",
   invitePinyin: "Yāoqǐng nín cānjiā Betty de bìyè diǎnlǐ!",
   inviteEn: "You're invited to Betty's graduation celebration!",
@@ -29,18 +29,18 @@ export const EVENT = {
 // s1 = 2×2 feature · s2 = 1×2 tall · s3 = 1×1. The pattern sums to full rows
 // (24 cells on a 4-column grid) and grid-auto-flow dense fills any holes.
 export const GALLERY_IMAGES: { src: string; size: "s1" | "s2" | "s3"; alt: string }[] = [
-  { src: MEDIA + "/images/gallery-13.jpg", size: "s1", alt: "Betelhem joyfully running on campus with her cap" },
-  { src: MEDIA + "/images/gallery-08.jpg", size: "s3", alt: "Betelhem on the red carpet at the graduation ceremony" },
-  { src: MEDIA + "/images/gallery-05.jpg", size: "s2", alt: "Betelhem celebrating on campus after graduation" },
+  { src: MEDIA + "/images/gallery-13.jpg", size: "s1", alt: "Bethlehem joyfully running on campus with her cap" },
+  { src: MEDIA + "/images/gallery-08.jpg", size: "s3", alt: "Bethlehem on the red carpet at the graduation ceremony" },
+  { src: MEDIA + "/images/gallery-05.jpg", size: "s2", alt: "Bethlehem celebrating on campus after graduation" },
   { src: MEDIA + "/images/gallery-10.jpg", size: "s3", alt: "Congratulations Bethy rooftop celebration" },
-  { src: MEDIA + "/images/gallery-09.jpg", size: "s3", alt: "Betelhem with fellow graduates" },
-  { src: MEDIA + "/images/gallery-01.jpg", size: "s1", alt: "Betelhem at the graduation arena with fellow graduates" },
+  { src: MEDIA + "/images/gallery-09.jpg", size: "s3", alt: "Bethlehem with fellow graduates" },
+  { src: MEDIA + "/images/gallery-01.jpg", size: "s1", alt: "Bethlehem at the graduation arena with fellow graduates" },
   { src: MEDIA + "/images/gallery-11.jpg", size: "s3", alt: "Congrats Bethy graduation cake" },
-  { src: MEDIA + "/images/gallery-06.jpg", size: "s2", alt: "Betelhem with a bouquet of roses" },
-  { src: MEDIA + "/images/gallery-07.jpg", size: "s3", alt: "Betelhem smiling with flowers" },
-  { src: MEDIA + "/images/gallery-12.jpg", size: "s3", alt: "Betelhem on campus with her graduation cap" },
-  { src: MEDIA + "/images/gallery-02.jpg", size: "s2", alt: "Betelhem at the graduation arena" },
-  { src: MEDIA + "/images/gallery-04.jpg", size: "s1", alt: "Betelhem holding her decorated graduation cap" },
+  { src: MEDIA + "/images/gallery-06.jpg", size: "s2", alt: "Bethlehem with a bouquet of roses" },
+  { src: MEDIA + "/images/gallery-07.jpg", size: "s3", alt: "Bethlehem smiling with flowers" },
+  { src: MEDIA + "/images/gallery-12.jpg", size: "s3", alt: "Bethlehem on campus with her graduation cap" },
+  { src: MEDIA + "/images/gallery-02.jpg", size: "s2", alt: "Bethlehem at the graduation arena" },
+  { src: MEDIA + "/images/gallery-04.jpg", size: "s1", alt: "Bethlehem holding her decorated graduation cap" },
 ];
 
 // Add more clips here — drop the file in public/videos/ and add an entry.
@@ -51,6 +51,10 @@ export const HIGHLIGHT_VIDEOS: { src: string; poster: string; label: string }[] 
   { src: MEDIA + "/videos/highlight-04.mp4", poster: MEDIA + "/images/events/welcome/welcome-08.jpg", label: "Life in China" },
   { src: MEDIA + "/videos/highlight-05.mp4", poster: MEDIA + "/images/events/welcome/welcome-01.jpg", label: "With friends" },
   { src: MEDIA + "/videos/highlight-06.mp4", poster: MEDIA + "/images/events/welcome/welcome-20.jpg", label: "Wuhan days" },
+];
+
+export const WORKS: { title: string; role: string; url: string }[] = [
+  { title: "Bnosha Group", role: "Design & Development", url: "https://www.bywagro.com/" },
 ];
 
 export const JOURNEY = [
@@ -86,6 +90,7 @@ export const CHINA_EVENTS: ChinaEvent[] = [
     story:
       "New city, new language, a room full of strangers — and slowly, a whole life. From the welcome dinner that turned classmates from around the world into family, to podcast recordings, finance presentations, cosplay streets, glass skywalks and late-night city lights: these are the everyday moments that made Wuhan home. Scroll through a few years of firsts, friends and small adventures.",
     highlights: ["Classmates from a dozen countries, one table", "From lecture halls to rooftop city views", "The friends who became family far from home"],
+    videos: [MEDIA + "/videos/welcome-01.mp4"],
     gallery: [
       MEDIA + "/images/events/welcome/welcome-01.jpg",
       MEDIA + "/images/events/welcome/welcome-02.jpg",
@@ -111,6 +116,9 @@ export const CHINA_EVENTS: ChinaEvent[] = [
       MEDIA + "/images/events/welcome/welcome-22.jpg",
       MEDIA + "/images/events/welcome/welcome-23.jpg",
       MEDIA + "/images/events/welcome/welcome-24.jpg",
+      MEDIA + "/images/events/welcome/welcome-25.jpg",
+      MEDIA + "/images/events/welcome/welcome-26.jpg",
+      MEDIA + "/images/events/welcome/welcome-27.jpg",
     ],
   },
   {

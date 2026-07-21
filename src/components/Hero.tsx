@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="hero-bg">
         <Image
           src={`${MEDIA}/images/hero-blossom.png`}
-          alt="Betelhem Abera in her graduation cap among cherry blossoms, with Wuhan Textile University and the Great Wall behind her"
+          alt="Bethlehem Abera in her graduation cap among cherry blossoms, with Wuhan Textile University and the Great Wall behind her"
           fill
           priority
           sizes="100vw"
@@ -22,7 +22,7 @@ export default function Hero() {
         <div className="hero-zh zh">{EVENT.inviteZh}</div>
         <div className="hero-py">{EVENT.invitePinyin}</div>
 
-        <h1>Betelhem Abera</h1>
+        <h1>Bethlehem Abera</h1>
         <div className="role">
           {EVENT.degree} · {EVENT.role}
         </div>

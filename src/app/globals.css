@@ -188,6 +188,15 @@ section { position: relative; padding: 96px 6vw; max-width: 1120px; margin: 0 au
 .info-card .val { font-family: var(--font-playfair), serif; font-size: 1.15rem; color: var(--ink); line-height: 1.4; }
 .info-card .sub { font-size: 0.88rem; color: var(--muted); margin-top: 6px; }
 .map-wrap { max-width: 880px; margin: 32px auto 0; border-radius: 14px; overflow: hidden; border: 1px solid var(--card-border); box-shadow: var(--shadow); }
+
+/* ---------- works done ---------- */
+.works-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; max-width: 480px; margin: 36px auto 0; }
+.work-card { display: block; border: 1px solid var(--card-border); background: var(--card); backdrop-filter: blur(8px); border-radius: 6px; padding: 30px 26px; text-align: center; position: relative; overflow: hidden; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.work-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--gold-line), var(--blossom), var(--gold-line)); }
+.work-card:hover { transform: translateY(-6px); box-shadow: 0 16px 34px rgba(201, 111, 136, 0.16); }
+.work-role { font-family: var(--font-poppins), sans-serif; font-size: 10.5px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; }
+.work-title { font-size: 1.35rem; color: var(--ink); }
+.work-link { font-family: var(--font-poppins), sans-serif; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blossom-deep); margin-top: 14px; }
 .map-wrap iframe { width: 100%; height: 320px; border: none; display: block; filter: saturate(0.85); }
 .event-actions { display: flex; gap: 1rem; justify-content: center; margin-top: 32px; flex-wrap: wrap; }
 

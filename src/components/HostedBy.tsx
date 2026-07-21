@@ -8,7 +8,7 @@ export default function HostedBy() {
         <div className="host-names">
           Dr. Abera
           <br />
-          Betelhem Abera
+          Bethlehem Abera
           <br />
           &amp; Family
         </div>

@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Betty's Graduation Celebration · 毕业快乐",
   description:
-    "邀请您参加 Betty 的毕业典礼! Join us to celebrate Betelhem Abera, Master's in Finance & International Trade, Wuhan Textile University — July 18, 2026, Addis Ababa.",
+    "邀请您参加 Betty 的毕业典礼! Join us to celebrate Bethlehem Abera, Master's in Finance & International Trade, Wuhan Textile University — July 18, 2026, Addis Ababa.",
 };
 
 export const viewport: Viewport = {

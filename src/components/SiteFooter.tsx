@@ -2,7 +2,7 @@ export default function SiteFooter() {
   return (
     <footer>
       <span className="fs">Thank You</span>
-      Betelhem Abera · Master&apos;s in Finance &amp; International Trade · Wuhan Textile University · Class of 2026
+      Bethlehem Abera · Master&apos;s in Finance &amp; International Trade · Wuhan Textile University · Class of 2026
       <br />
       Celebration: Saturday, July 18, 2026 · Addis Ababa
       <a className="dev-credit" href="https://qaldesigns.com" target="_blank" rel="noopener noreferrer">
