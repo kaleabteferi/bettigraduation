@@ -1,0 +1,5 @@
+# Photos & videos are served from Supabase Storage (see MEDIA in
+# src/lib/constants.ts), so the local copies don't need to be uploaded to
+# Vercel. Keeps the deploy upload tiny and fast.
+public/images
+public/videos
