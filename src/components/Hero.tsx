@@ -1,14 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import { EVENT } from "@/lib/constants";
+import { EVENT, MEDIA } from "@/lib/constants";
 
 export default function Hero() {
   return (
     <section id="hero">
       <div className="hero-bg">
         <Image
-          src="/images/hero-blossom.png"
+          src={`${MEDIA}/images/hero-blossom.png`}
           alt="Betelhem Abera in her graduation cap among cherry blossoms, with Wuhan Textile University and the Great Wall behind her"
           fill
           priority
