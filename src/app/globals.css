@@ -157,7 +157,7 @@ section { position: relative; padding: 96px 6vw; max-width: 1120px; margin: 0 au
 .hero-content > .desc { animation-delay: 3.5s; }
 .hero-content > .hero-cta { animation-delay: 3.7s; }
 @keyframes heroIn { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-.hero-script { font-family: var(--font-script), cursive; font-size: 4rem; color: var(--blossom-deep); line-height: 1; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+.hero-script { font-family: var(--font-script), cursive; font-size: clamp(2.4rem, 7vw, 3.8rem); color: var(--blossom-deep); line-height: 1; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
 [data-theme="dark"] .hero-script { text-shadow: none; }
 .hero-zh { font-family: var(--font-noto-sc), serif; font-size: clamp(1rem, 2.8vw, 1.25rem); color: var(--ink); letter-spacing: 0.1em; margin-top: 0.9rem; }
 .hero-py { font-style: italic; font-size: 0.92rem; color: var(--muted); margin-top: 0.25rem; }
@@ -395,7 +395,7 @@ footer .dev-credit:hover { color: var(--blossom-deep); }
   [data-theme="dark"] #hero .hero-veil { background: linear-gradient(180deg, rgba(33, 22, 25, 0) 0%, rgba(33, 22, 25, 0) 27%, rgba(33, 22, 25, 0.9) 42%, rgba(33, 22, 25, 0.98) 52%, var(--paper) 68%); }
   /* she stands right-of-center in the artwork; this keeps her face in frame */
   #hero .hero-bg img { object-position: 66% 16%; }
-  .hero-script { font-size: 2.3rem; text-shadow: 0 1px 12px rgba(253, 250, 243, 0.9), 0 1px 0 rgba(255, 255, 255, 0.5); }
+  .hero-script { font-size: 4rem; text-shadow: 0 1px 12px rgba(253, 250, 243, 0.9), 0 1px 0 rgba(255, 255, 255, 0.5); }
   [data-theme="dark"] .hero-script { text-shadow: 0 1px 12px rgba(33, 22, 25, 0.9); }
   .hero-zh { font-size: 0.98rem; letter-spacing: 0.06em; }
   .hero-py { font-size: 0.84rem; }
