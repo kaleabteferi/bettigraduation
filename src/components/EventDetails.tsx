@@ -130,11 +130,11 @@ export default function EventDetails() {
 }
 
 function addToCalendar() {
-  // 12:00 PM EAT (UTC+3) → 09:00 UTC. Google Calendar requires an end time; we use late evening.
+  // 1:00 PM EAT (UTC+3) → 10:00 UTC. Google Calendar requires an end time; we use late evening.
   const params = new URLSearchParams({
     action: "TEMPLATE",
     text: "Betty's Graduation Celebration 🎓",
-    dates: "20260718T090000Z/20260718T190000Z",
+    dates: "20260726T100000Z/20260726T200000Z",
     details:
       "Graduation lunch for Bethlehem Abera — Master's in Finance & International Trade, Wuhan Textile University. 邀请您参加 Betty 的毕业典礼! No end time — celebrate freely. Directions: " +
       EVENT.mapsUrl,

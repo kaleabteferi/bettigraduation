@@ -8,8 +8,8 @@ export default function Hero() {
     <section id="hero">
       <div className="hero-bg">
         <Image
-          src={`${MEDIA}/images/hero-blossom.png`}
-          alt="Bethlehem Abera in her graduation cap among cherry blossoms, with Wuhan Textile University and the Great Wall behind her"
+          src={`${MEDIA}/images/hero-graduate.png`}
+          alt="Bethlehem Abera in her graduation cap and gown beside the Wuhan Textile University sign, with the Great Wall and cherry blossoms behind her"
           fill
           priority
           sizes="100vw"
