@@ -76,6 +76,11 @@ button { font-family: inherit; cursor: pointer; }
   *:not(.petal):not(.petal-inner) { animation-duration: 0.001ms !important; animation-delay: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
 }
 
+/* ---------- scroll progress ---------- */
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 3px; background: rgba(0, 0, 0, 0.06); z-index: 85; pointer-events: none; }
+[data-theme="dark"] .scroll-progress { background: rgba(255, 255, 255, 0.1); }
+.scroll-progress-bar { height: 100%; width: 100%; transform: scaleX(0); transform-origin: left; background: linear-gradient(90deg, var(--gold-line), var(--blossom-deep)); will-change: transform; }
+
 /* ---------- controls ---------- */
 .controls { position: fixed; top: 1.1rem; right: 1.2rem; z-index: 80; display: flex; gap: 0.5rem; }
 .ctrl-btn { background: var(--card); border: 1px solid var(--card-border); border-radius: 50px; padding: 0.5rem 1rem; font-size: 0.72rem; letter-spacing: 0.06em; color: var(--ink); font-family: var(--font-poppins), sans-serif; backdrop-filter: blur(12px); transition: all 0.3s ease; }
@@ -395,11 +400,12 @@ footer .dev-credit:hover { color: var(--blossom-deep); }
   /* mobile hero: the photo owns the top ~40% of the screen, the invitation
      text sits on solid paper below — no text fighting the busy image */
   #hero { padding-top: 38vh; padding-bottom: 6vh; }
-  #hero .hero-veil { background: linear-gradient(180deg, rgba(253, 250, 243, 0) 0%, rgba(253, 250, 243, 0) 24%, rgba(253, 250, 243, 0.82) 44%, rgba(253, 250, 243, 0.97) 58%, var(--paper) 78%); }
-  [data-theme="dark"] #hero .hero-veil { background: linear-gradient(180deg, rgba(33, 22, 25, 0) 0%, rgba(33, 22, 25, 0) 24%, rgba(33, 22, 25, 0.82) 44%, rgba(33, 22, 25, 0.97) 58%, var(--paper) 78%); }
+  #hero .hero-veil { background: linear-gradient(180deg, rgba(253, 250, 243, 0) 0%, rgba(253, 250, 243, 0) 27%, rgba(253, 250, 243, 0.9) 42%, rgba(253, 250, 243, 0.98) 52%, var(--paper) 68%); }
+  [data-theme="dark"] #hero .hero-veil { background: linear-gradient(180deg, rgba(33, 22, 25, 0) 0%, rgba(33, 22, 25, 0) 27%, rgba(33, 22, 25, 0.9) 42%, rgba(33, 22, 25, 0.98) 52%, var(--paper) 68%); }
   /* she stands right-of-center in the artwork; this keeps her face in frame */
   #hero .hero-bg img { object-position: 66% 16%; }
-  .hero-script { font-size: 2.3rem; }
+  .hero-script { font-size: 2.3rem; text-shadow: 0 1px 12px rgba(253, 250, 243, 0.9), 0 1px 0 rgba(255, 255, 255, 0.5); }
+  [data-theme="dark"] .hero-script { text-shadow: 0 1px 12px rgba(33, 22, 25, 0.9); }
   .hero-zh { font-size: 0.98rem; letter-spacing: 0.06em; }
   .hero-py { font-size: 0.84rem; }
   #hero h1 { font-size: clamp(2.3rem, 11.5vw, 2.9rem); margin-top: 1rem; }
@@ -410,4 +416,5 @@ footer .dev-credit:hover { color: var(--blossom-deep); }
   .btn-primary, .btn-outline { padding: 0.8rem 1.7rem; font-size: 0.7rem; }
   .scroll-hint { bottom: 12px; }
   .controls { top: 0.7rem; right: 0.7rem; }
+  .scroll-progress { height: 4px; }
 }

@@ -5,6 +5,7 @@ import PetalField from "@/components/PetalField";
 import ConfettiCanvas, { ConfettiHandle } from "@/components/ConfettiCanvas";
 import Loader from "@/components/Loader";
 import SiteControls from "@/components/SiteControls";
+import ScrollProgress from "@/components/ScrollProgress";
 import Hero from "@/components/Hero";
 import SectionDivider from "@/components/SectionDivider";
 import Message from "@/components/Message";
@@ -26,6 +27,7 @@ export default function Home() {
 
   return (
     <>
+      <ScrollProgress />
       <SiteControls />
       <PetalField />
       <ConfettiCanvas ref={confettiRef} />
