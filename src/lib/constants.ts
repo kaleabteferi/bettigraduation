@@ -57,14 +57,6 @@ export const WORKS: { title: string; role: string; url: string }[] = [
   { title: "Bnosha Group", role: "Design & Development", url: "https://www.bywagro.com/" },
 ];
 
-export const JOURNEY = [
-  { icon: "🌸", title: "Began the Journey", desc: "A dream takes shape, far from home", img: MEDIA + "/images/gallery-02.jpg" },
-  { icon: "✈️", title: "Studied in China", desc: "Wuhan Textile University", img: MEDIA + "/images/gallery-04.jpg" },
-  { icon: "📚", title: "Years of Dedication", desc: "Master's studies in Finance & International Trade", img: MEDIA + "/images/gallery-06.jpg" },
-  { icon: "🎓", title: "Graduated", desc: "Master's Degree, Class of 2026", img: MEDIA + "/images/gallery-01.jpg" },
-  { icon: "🏡", title: "Celebrating with Family", desc: "Addis Ababa, Ethiopia", img: null },
-];
-
 // Titles, stories and photos are editable placeholders — swap in the real
 // event names, dates and images whenever they're ready. `gallery` entries that
 // are null render as elegant "photo coming soon" slots.

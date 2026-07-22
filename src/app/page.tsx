@@ -11,7 +11,6 @@ import SectionDivider from "@/components/SectionDivider";
 import Message from "@/components/Message";
 import EventDetails from "@/components/EventDetails";
 import Countdown from "@/components/Countdown";
-import Journey from "@/components/Journey";
 import WorksDone from "@/components/WorksDone";
 import ChinaEvents from "@/components/ChinaEvents";
 import HighlightVideo from "@/components/HighlightVideo";
@@ -43,9 +42,6 @@ export default function Home() {
 
       <SectionDivider icon="學" />
       <EventDetails />
-
-      <SectionDivider icon="✿" />
-      <Journey />
 
       <SectionDivider icon="職" />
       <WorksDone />
